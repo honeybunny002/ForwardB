@@ -14,7 +14,7 @@ class Config(object):
     APP_ID =27307346 
     API_HASH = "ab2ff146d9e34248742343824e5976ac"
     TG_USER_SESSION = "BQGgrVIAGVj4xUfN5t2bj4sLKLFjjomIr_nB643RF_Ws2TGAxdDonYlmLNxL5fHjVjapDniJ0wgMhYjiSzmv7m1gVNJpIwWcryEI3Ci6uA8vLZvsOwiFy0HGlBx_0tUU4F3l2HD8V5i53GHXq1fjkuNrbW60Us7A424S10O5fYmuIxy7fMjs1-oEif3lwgSb-Jjp3uYdLuBwqCCzHKLJQKu9cmTWyS55WXo3QtodHv5vZJPvNjWbOhhivuVr-JaIkdM8U730HYHC1BFXBBpIKQhUMaNPw_tCjONXkqHk1dlB-ESbzDJJsXQhyyJ_kCN_LCg4XsMZDgNJejXL-OX2ndL26ENh1QAAAAFpcMmuAA"
-    DB_URI = "mongodb+srv://adforward:adrama123@cluster0.sz0clan.mongodb.net/?retryWrites=true&w=majority"
+    DB_URI = "postgres://osbgfxfd:BzdyDOCZdPuzHOyWQL9PjlNTwiquegg_@suleiman.db.elephantsql.com/osbgfxfd"
 
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
